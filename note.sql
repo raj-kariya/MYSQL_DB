@@ -30,3 +30,12 @@ update [tablename] set col1=value, col2=value, col3=value where id=12;
 
 --delete
 delete from [tablename] where [colname] = x;
+
+--order by
+select * from [tablename] order by [colname] asc
+
+-- limit
+-- offset
+--Alias
+-- avg, sum, count, --> aggregate functions
+
